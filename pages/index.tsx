@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { ChromePicker } from 'react-color'
+
 import { useState } from 'react'
+import { ChromePicker } from 'react-color'
 
 export default function Home() {
   const [color,setColor] =useState("")
